@@ -8,4 +8,9 @@ export {
 	ColourConsoleTransport
 };
 
-export { Application as OakApplication, Router as OakRouter, ListenOptions, Context as OakContext } from "https://deno.land/x/oak/mod.ts";
+export {
+	Application as OakApplication,
+	Router as OakRouter,
+	ListenOptions,
+	Context as OakContext
+} from "https://deno.land/x/oak/mod.ts";

@@ -12,14 +12,6 @@ class Hello {
 		ctx.response.status = 200;
 		ctx.response.body = "Hello, World!";
 	}
-
-	// test1() {
-
-	// }
-
-	// test2() {
-
-	// }
 }
 
 class NotAController {
@@ -31,4 +23,4 @@ const app = new Application({
 	logger
 });
 
-await app.serve({ "port": 3000});
+// await app.serve({ "port": 3000});
